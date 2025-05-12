@@ -23,7 +23,7 @@ jobs:
       - name: Paso 5 - Actualizar pip
         run: pip install --upgrade pip
       - name: Paso 6 - Instalar dependecias
-        run: pip install -e .
+        run: pip install -e /BIG_DATA_2025_1_2
       - name: Paso 7 - Ejecutar Script
         run: python src/edu_bigdata/main.py
       - name: Paso 8 - crear commit automatico
